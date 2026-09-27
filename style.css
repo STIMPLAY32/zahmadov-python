@@ -89,5 +89,18 @@ footer { background: #000; color: #86868b; padding: 40px 22px; font-size: 12px; 
   .grid { grid-template-columns: 1fr; }
   .card h2 { font-size: 32px; }
   .card .subtitle { font-size: 18px; }
+
+  /* Картинки с белым фоном — скругляем углы, чтобы смотрелись аккуратно */
+.card-img.img-rounded {
+  border-radius: 16px;
+  background: #fff;
+  padding: 10px;
+  max-width: 90%;
+}
+
+/* Apple Card на чёрном фоне — убираем возможный наложенный фон */
+.card-img[alt="Apple Card"] {
+  border-radius: 14px;
+}
   .card { min-height: 500px; padding: 45px 25px 0; }
 }
