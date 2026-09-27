@@ -83,8 +83,8 @@ def click_ok():
 app = QApplication([])
 window = QWidget()
 
-window.setWindowTitle('Memory card')
-window.resize(500, 300)
+window.setWindowTitle('Карточки для запоминания')
+window.resize(600, 400)
 
 quiz = QLabel("Вопрос")
 but = QPushButton("Ответить")
